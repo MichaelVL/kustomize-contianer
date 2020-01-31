@@ -7,3 +7,4 @@ WORKDIR /work
 VOLUME  /work
 
 ENTRYPOINT ["/usr/bin/kustomize"]
+CMD ["-h"]
