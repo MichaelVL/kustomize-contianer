@@ -1,4 +1,4 @@
-FROM alpine:3.9.5
+FROM alpine:3.11.3
 
 ADD kustomize.tar.gz /usr/bin/
 CMD chmod +x /usr/bin/kustomize
